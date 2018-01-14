@@ -17,10 +17,7 @@ for line in query_file.readlines():
     from collections import Counter
     qry_score = Counter()
     for word in qry['Query Terms']:
-        if word not in (
-                stopwords.words('english'), 'document', 'identify', 'will', 'must', 'the', 'of', 'or', 'a', 'on', 'in',
-                'an', 'about', 'to', 'by', 'at', 'into', 'one', 'u', 's', 'and', 'with', 'as', 'which', 'any', 'has', 'd',
-                'its', 'how', 'mci', 'describe', 'either'):
+        if word not in (stopwords.words('english')):
 
             from nltk.stem import PorterStemmer, WordNetLemmatizer
 
@@ -99,10 +96,7 @@ for line in query_file.readlines():
     from collections import Counter
     qry_score = Counter()
     for word in qry['Query Terms']:
-        if word not in (
-                stopwords.words('english'), 'document', 'identify', 'will', 'must', 'the', 'of', 'or', 'a', 'on', 'in',
-                'an', 'about', 'to', 'by', 'at', 'into', 'one', 'u', 's', 'and', 'with', 'as', 'which', 'any', 'has', 'd',
-                'its', 'how', 'mci', 'describe', 'either'):
+        if word not in (stopwords.words('english')):
 
             from nltk.stem import PorterStemmer, WordNetLemmatizer
 
@@ -184,10 +178,7 @@ for line in query_file.readlines():
     from collections import Counter
     qry_score = Counter()
     for word in qry['Query Terms']:
-        if word not in (
-                stopwords.words('english'), 'document', 'identify', 'will', 'must', 'the', 'of', 'or', 'a', 'on', 'in',
-                'an', 'about', 'to', 'by', 'at', 'into', 'one', 'u', 's', 'and', 'with', 'as', 'which', 'any', 'has', 'd',
-                'its', 'how', 'mci', 'describe', 'either'):
+        if word not in (stopwords.words('english')):
 
             from nltk.stem import PorterStemmer, WordNetLemmatizer
 
@@ -246,56 +237,3 @@ for line in query_file.readlines():
     for i in range(1000):
         results_file.writelines( str(qry['Query No']) + " " + str("Q0") + " " + str(score_list[i][0]) + " " + str(rank[i]) + " " + str(score_list[i][1]) + " " + str("Exp"))
         results_file.write('\n')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
