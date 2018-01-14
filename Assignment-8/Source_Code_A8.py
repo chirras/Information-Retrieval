@@ -241,28 +241,4 @@ for k in comb:
         diff_qry_clu += 1
 
 
-
-
 acc_per = (same_qry_clu+diff_qry_clu)/(same_clu_diff_qry+diff_clu_same_qry+same_qry_clu+diff_qry_clu)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
