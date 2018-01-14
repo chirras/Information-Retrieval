@@ -340,9 +340,3 @@ while(count < 4):
             count = 0
       
     i = i + 1
-
-
-
-
-
-
