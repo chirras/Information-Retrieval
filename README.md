@@ -8,7 +8,9 @@ Implemented and compared various retrieval systems using vector space models (Ok
 and language models (Laplace smoothing, Jelinek-Mercer smoothing).
 
 It has,
+
 A program to parse the corpus and index it with elasticsearch
+
 A query processor, which runs queries from an input file using a selected retrieval model
 
 
